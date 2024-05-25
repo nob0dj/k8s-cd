@@ -1,5 +1,7 @@
 resources:
 - ingress.yml
+- deployment.yml
+- service.yml
 
 commonLabels:
   app: echo
