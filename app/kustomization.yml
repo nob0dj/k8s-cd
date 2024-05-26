@@ -3,6 +3,8 @@ resources:
 - deployment.yml
 - service.yml
 
+namespace: default
+
 commonLabels:
   app: echo
   tier: app
